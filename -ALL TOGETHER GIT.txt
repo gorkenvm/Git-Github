@@ -69,15 +69,28 @@ git merge feature-2         # feature-2 merged on master.
 
 			    Push Your Project to Github Repository
 
+You need link of ur repository as https://github.com/path/reponame.git       copy it
+
+git status    # if it is not track file, u need to add it
+git add       # if u add all changed files to track file then go on
+git push https://github.com/path/reponame.git main   # main is my branch name
+
+
+					LİNK NAME
+
+You can give a short name to the link. 
+
+git remote add origin https://github.com/path/repaname.git branchname  # you can write origin instead of link anymore.
+
+git remote -v         # you can show all short name of links
 
 
 
+					CLONE
 
+You can download any public repository if you have link
 
-
-
-
-
+git clone https://github.com/path/repaname
 
 
 
