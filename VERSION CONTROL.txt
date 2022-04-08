@@ -1,0 +1,9 @@
+				Version Control
+
+git log --oneline            # u should choose version and copy version id
+git reset versionid --hard   # if u use --hard flag, u will all versions after this version
+git reset versionid --soft   # version ll be in local area then u ll commit and u can use this version again
+
+git revert versionid         # committed changes deleted.
+
+git commit --amend -m "edited comment"   # u can edit comment by --amend

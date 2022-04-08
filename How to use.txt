@@ -1,0 +1,115 @@
+Configuration
+
+git config --global user.name "yourusername"           # set name and email
+git config --global user.email "youremail@_____.com"
+git config --global user.password "ur password"
+
+git config --list      # shows all configrations
+git config user.name   # shows user name
+
+
+
+				Open Repository
+
+Be sure you are in your project directory
+
+git init          # Opened a repository. You can show .git file in your directory by ls -a
+
+				Carry to Local Area
+
+git add urfile.txt          # it is in tracked file. So ready to commit
+git add .                   # all files in this directory are in tracked file
+git rm --cached urfile.txt  # it is removed from tracked file. it is in untracked file anymore
+git satatus                 # u can see urfile in tracked or untracked file
+
+				Carry to Station Area
+
+git commit -m "first commit"  # tracked files carried to station area. u can write a message by -n
+git log                       # shows commit details. commit id, author, date
+git log --online              # result shows in oneline
+
+if u do changes in urfile u ll see that; modified:urfile.txt in untracked file, u have to carry it to station area again by git add. 
+
+Create Version
+
+İf u do another commit, log gives u another version.
+
+				Version Control
+
+git log --oneline            # u should choose version and copy version id
+git reset versionid --hard   # if u use --hard flag, u will all versions after this version
+git reset versionid --soft   # version ll be in local area then u ll commit and u can use this version again
+
+git revert versionid         # committed changes deleted.
+
+git commit --amend -m "edited comment"   # u can edit comment by --amend
+
+
+			Create,Switch and Delete Branch
+
+git branch feature          # named feature branch created.
+git checkout feature        # Switched to brach 'feature'
+
+git checkout -b feature-2   # named feature-2 branch created and switched.
+
+NOTE: if u r on master branch when u r creating branch, branch will connect to master.
+So be careful that u wanna create branch that connect to where and where r u now.
+
+
+git branch -d feature-2     # delete feature-2 branch. if u have error then u can use -D instead of -d
+
+			
+					Merge
+
+Be careful where u r now. Because u ll merge on it.
+
+git merge feature-2         # feature-2 merged on master.
+
+
+
+			    Push Your Project to Github Repository
+
+You need link of ur repository as https://github.com/path/reponame.git       copy it
+
+git status    # if it is not track file, u need to add it
+git add       # if u add all changed files to track file then go on
+git push https://github.com/path/reponame.git main   # main is my branch name
+
+
+					LİNK NAME
+
+You can give a short name to the link. 
+
+git remote add origin https://github.com/path/repaname.git branchname  # you can write origin instead of link anymore.
+
+git remote -v         # you can show all short name of links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

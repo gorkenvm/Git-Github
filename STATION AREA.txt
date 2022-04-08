@@ -1,0 +1,11 @@
+			Carry to Station Area
+
+git commit -m "first commit"  # tracked files carried to station area. u can write a message by -n
+git log                       # shows commit details. commit id, author, date
+git log --online              # result shows in oneline
+
+if u do changes in urfile u ll see that; modified:urfile.txt in untracked file, u have to carry it to station area again by git add. 
+
+Create Version
+
+İf u do another commit, log gives u another version.

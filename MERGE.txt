@@ -1,0 +1,5 @@
+					Merge
+
+Be careful where u r now. Because u ll merge on it.
+
+git merge feature-2         # feature-2 merged on master.

@@ -1,0 +1,5 @@
+				Open Repository
+
+Be sure you are in your project directory
+
+git init          # Opened a repository. You can show .git file in your directory by ls -a

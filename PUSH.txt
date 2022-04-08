@@ -1,0 +1,7 @@
+		    Push Your Project to Github Repository
+
+You need link of ur repository as https://github.com/path/reponame.git     copy it FROM GİTHUB REPOSİTORY
+
+git status    # if it is not track file, u need to add it
+git add       # if u add all changed files to track file then go on
+git push https://github.com/path/reponame.git main   # main is my branch name

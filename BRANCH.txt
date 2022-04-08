@@ -1,0 +1,12 @@
+			Create,Switch and Delete Branch
+
+git branch feature          # named feature branch created.
+git checkout feature        # Switched to brach 'feature'
+
+git checkout -b feature-2   # named feature-2 branch created and switched.
+
+NOTE: if u r on master branch when u r creating branch, branch will connect to master.
+So be careful that u wanna create branch that connect to where and where r u now.
+
+
+git branch -d feature-2     # delete feature-2 branch. if u have error then u can use -D instead of -d

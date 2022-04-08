@@ -1,0 +1,6 @@
+				Carry to Local Area
+
+git add urfile.txt          # it is in tracked file. So ready to commit
+git add .                   # all files in this directory are in tracked file
+git rm --cached urfile.txt  # it is removed from tracked file. it is in untracked file anymore
+git satatus                 # u can see urfile in tracked or untracked file
